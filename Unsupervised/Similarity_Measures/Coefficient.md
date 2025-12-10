@@ -19,6 +19,7 @@ The Dice coefficient focuses on the intersection (matches) and gives it **double
 ### Set Formula
 
 $$Sim_{Dice}(A, B) = \frac{2 |A \cap B|}{|A| + |B|}$$
+
 * **Concept:** Twice the intersection divided by the sum of the sizes.
 
 ### Vector Formula

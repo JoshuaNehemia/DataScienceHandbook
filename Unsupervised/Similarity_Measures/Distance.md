@@ -9,6 +9,7 @@ Minkowski distance is the generalized formula. By changing the value of the para
 $$D(X, Y) = \left( \sum_{i=1}^{n} |x_i - y_i|^p \right)^{\frac{1}{p}}$$
 
 Where:
+
 * $X$ and $Y$ are the two document vectors being compared.
 * $n$ is the number of features (terms).
 * $p$ is the order parameter.
@@ -22,7 +23,6 @@ Also known as "City Block" or "Taxicab" distance, this measures distance as if y
 $$D_{Manhattan}(X, Y) = \sum_{i=1}^{n} |x_i - y_i|$$
 
 * **Characteristics:** It is the sum of absolute differences. It is generally more robust to outliers than Euclidean distance for high-dimensional data (like text).
-
 
 ## 3. Euclidean Distance ($L_2$ Norm)
 
