@@ -17,7 +17,7 @@ The process is an iterative loop. It repeats the same steps over and over until 
 
 First, define $k$ (the number of clusters). The algorithm then randomly selects $k$ points from the dataset (or random locations in the data space) to serve as the initial **centroids**.
 
->![NOTE] 
+>[!WARNING] 
 > Starting point is important. If starting points is bad, k-means might get a bad result.
 
 ### 2. The Assignment Step (Choosing Sides)
