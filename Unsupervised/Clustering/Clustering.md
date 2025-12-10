@@ -1,10 +1,13 @@
 # Clustering
 
-**Cluster analysis or clustering** is a foundational technique in exploratory data analysis. At its core, it partitions a set of objects into groups such that objects within the same group (a *cluster*) are **more similar to one another** (in some analytically defined sense) than to objects in other groups.
+**Cluster analysis or clustering** is a foundational technique in exploratory data analysis. At its core, it partitions a set of objects into groups such that objects within the same group (a *cluster*) are **more similar to one another** (in some analytically defined sense) than to objects in another groups.
+
+>[!NOTE]
+> Each members of group A is similar to every other member inside it's respective group.
+> Each members of group B is similar to every other member inside it's respective group.
+> Each members of group A is different to every members of group B (If a clustering algorithm is run optimally)
 
 This approach sits at the heart of statistical data analysis and appears across a wide range of disciplines, including pattern recognition, image analysis, information retrieval, bioinformatics, data compression, computer graphics, and machine learning.
-
-Here is an editorial breakdown of clustering models. Understanding that "clustering" is not a single specific algorithm, but rather a broad task to be solved, is key to data science. The choice of model dictates the shape of the clusters found.
 
 ## Clustering Models
 
